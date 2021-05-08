@@ -1,0 +1,163 @@
+  q.6 Why Java is platform independent?
+  ans=
+ Java is a platform-independent language. In other words, you can write your code once and then run it anywhere,
+ on any platform that provides the environment to run it. This environment is the Java Virtual Machine (JVM). 
+The JVM should be present to execute the code. The JVM is different for each platform. In the case of Java, 
+platform independence does not mean that you can run the code anywhere; you can run it wherever the environment is provided. 
+This is the key point of platform independence in Java.
+ The idea is that the Java language is portable (or, more precisely, the compiled byte code is portable). ... 
+  The Java code is compiled by the compiler and converted into bytecode. 
+  This bytecode is a platform independent code because it can be executed on several platforms,
+  that is, Write Once and Run Anywhere (WORA).
+
+  What is Platform?
+We can define a platform as the sum of hardware and software,  
+that provides the environment to run the program. 
+We can realistically say that a platform is the computer and the operating system running on it. 
+The operating system can be Windows, Mac, Linux, or any of many others. 
+To run a program on any machine you need to convert it to the machine language so that the specific machine can understand it.
+ In Java the source code is not directly converted into the machine code. It is first converted into the byte code of the JVM.
+
+Source Code to Byte Code?
+ 
+In Java, the source code is compiled and converted into the byte code. 
+This byte code is not the machine code so the specific platform cannot understand it since it is not machine code.
+ 
+ Byte Code to Machine Code?
+In Java, the byte code is not the required machine code.
+ So for the required machine code we have the Java Virtual Machine in Java. 
+It interprets the byte code and converts it into the machine specific code. 
+So the Java Virtual Machine is very important because it makes the byte code understandable to the machine. 
+It is the reason that, if any machine does not have the specific Java Virtual Machine then it cannot understand the byte code and 
+the program does not execute.
+
+Platform-independent and Platform Dependent
+Using the Java Virtual Machine we can make the byte code understandable to any platform. 
+That is why the byte code is known as platform-independent.
+ But on the other hand the Java Virtual Machine is different for each platform;
+ that is why it is known as platform-dependent.
+ Java is platform-independent because it does not depend on any type of platform. Hence, Java is platform-independent language.
+
+Important Points:
+In Java, programs are compiled into byte code and that byte code is platform-independent.
+The byte code is executed by the Java Virtual Machine and the Java Virtual Machine is platform dependent.
+Java is platform-independent.
+Any machine to execute the byte code needs the Java Virtual Machine.
+
+
+
+Q7. What are wrapper classes in Java?
+
+ans=
+   A Wrapper class is a class whose object wraps or contains primitive data types. 
+When we create an object to a wrapper class, it contains a field and in this field, 
+we can store primitive data types. In other words, we can wrap a primitive value into a wrapper class object.
+Need of Wrapper Classes:
+1.They convert primitive data types into objects. Objects are needed if we wish to modify the arguments
+ passed into a method (because primitive types are passed by value).
+2.The classes in java.util package handles only objects and hence wrapper classes help in this case also.
+3.Data structures in the Collection framework, such as ArrayList and Vector, store only objects (reference types)
+ and not primitive types.
+4.An object is needed to support synchronization in multithreading.
+  Primitive Data types and their Corresponding Wrapper class
+
+  PRIMITIVE DATA TYPE =   WRAPPER CLASS
+  char= Character
+  byte=  Byte
+  short= Short
+  int= Integer
+  long = Long
+  float=  Float
+  double= Double
+  boolean = Boolean
+
+
+Q8.   Why pointer are not used in java?
+
+ans=
+   Reasons of not to using pointers in java
+
+Because pointers are unsafe. Java uses reference types to hide pointers and programmers feel easier
+ to deal with reference types without pointers. This is why Java and C# shine.
+Java is created for simple use.But by adding pointer it is too complex for a programmer.
+Memory allocation is done automaticaly it is managed by Jvm. So to avoid direct access to memory by user pointers dont allowed in java
+Java Language does not use pointer for the reason that it works on Internet. Applets are used on the internet. 
+and Pointers are used to identify the address of variables,methods, 
+and therefore even big programmer can find out the secrets of other user on the internet using pointer. 
+so if there could be pointer in java, it could be harmful for leakage of the important information.
+JAVA REFERENCE:_
+
+All objects are handled by references, not to be confused with pointers or C++ references. 
+The difference is that Java references do not refer directly to the memory location, but rather contain the pointer to the actual memory location, 
+which the programmer cannot get direct access to. This extra level of indirection is required for GC to work. 
+When GC kicks in and frees objects, that are no longer in use, it then does heap compaction to defragment the heap. 
+To do this, some objects must be moved around in memory. This is possible because there is only one place where this pointer is located, 
+in the reference, and thus the memory can be relocated, old location freed, and pointer changed.
+
+In C++ this is not possible because pointers are copied all over the code. It is also true that pointers are dangerous and lead to memory leaks, 
+memory corruption, invalid memory access, e.g. from uninitialized and improperly initialized variables, indexing out of bounds,
+ and many bugs due to pointer arithmetic. References, and other features related to these, avoid all these problems.
+
+
+Q.9=. List some features of Java?
+
+ANS=
+
+Object Oriented
+In Java, everything is an Object. Java can be easily extended since it is based on the Object model.
+
+Platform Independent
+Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine,
+ rather into platform-independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM)
+ on whichever platform it is being run on.
+
+Simple
+Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
+
+Secure
+With Java's secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.
+
+Architecture-neutral
+Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on many processors, 
+with the presence of Java runtime system.
+
+Portable
+Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. 
+The compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.
+
+Robust
+Java makes an effort to eliminate error-prone situations by emphasizing mainly on compile time error checking and runtime checking.
+
+Multithreaded
+With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously.
+ This design feature allows the developers to construct interactive applications that can run smoothly.
+
+Interpreted
+Java byte code is translated on the fly to native machine instructions and is not stored anywhere. 
+The development process is more rapid and analytical since the linking is an incremental and light-weight process.
+
+High Performance
+With the use of Just-In-Time compilers, Java enables high performance.
+
+Distributed
+Java is designed for the distributed environment of the internet.
+
+Dynamic
+Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. 
+Java programs can carry an extensive amount of run-time information that can be used to verify and resolve accesses to objects at run-time.
+
+
+
+
+Q.10. .Why is Java Architectural Neutral?
+
+ANS=
+   Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine,
+ rather into platform-independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM)
+ on whichever platform it is being run on.
+
+Thus when you write a piece of Java code in a particular platform and generated an executable code .class file. You can execute/run this .
+class file on any system the only condition is that the target system should have JVM (JRE) installed in it.
+
+In short, Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on many processors,
+with the presence of Java runtime system.
