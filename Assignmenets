@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+
+<body>
+    <center>
+        <h1>
+            <u>
+               <b> My Biodata</b>
+            </u>
+        </h1>
+    </center>
+     <b> <p>Akshay More</p>
+    <p>Lalbaug, Mumbai</p>
+    <p>Akshayae8@gmail.com</p>
+    <p>Contact no : 9765495006</p></b>
+    <hr>
+    <h2 style="background-color: gray;">
+        <u>Career Objective</u>
+    </h2>
+    <h3>I seek challenging opportunities where I can fully use my skills for the success of the organization. </h3>
+    <h2 style="background-color: gray;">
+        <u>
+            Educational Qualifications
+        </u>
+    </h2>
+    <table border="5" width="1000">
+        <tr style="background-color: gray;">
+            <th>Qualification</th>
+            <th>Board/University</th>
+            <th>Year of Passing</th>
+            <th>Marks/Grade</th>
+        </tr>
+        <tr>
+            <th>BE</th>
+            <th>Saraswati</th>
+            <th>2020</th>
+            <th>7.21 CGPA</th>
+
+        </tr>
+        <tr>
+            <th>Diploma</th>
+            <th>MSBTE</th>
+            <th>2017</th>
+            <th>80%</th>
+        </tr>
+      
+        <tr>
+            <th>S.S.C</th>
+            <th>State Board Of maharashtra</th>
+            <th>2012</th>
+            <th>89%</th>
+        </tr>
+    </table>
+<h2 style="background-color: gray;">
+    <u>Strength</u>
+</h2>
+<ul>
+    
+        
+           <li> Self Motivated</li>
+           <li>Hard Working</li>
+           <li>Positive Attitude</li>
+           <li>Good team player</li>
+        
+    
+</ul>
+<h2 style="background-color: gray;">
+    
+    <u>Technical Skills    </u>
+    </h2>
+    <ul>
+        <li><b>Microsoft office tools: </b>MS office(Word,Excel,Power Point)</li>
+        <li><b>Technology known:</b>AutoCad</li>
+        <li><b>Technical Languages:</b>JAVA,C-Language,C++,HTML etc..</li>
+    </ul>
+    
+<h2 style="background-color: gray;"> 
+    <u>
+        Personal Details
+    </u>
+</h2>
+<ul>
+    
+        <li><b>Name : </b>Akshay More</li>
+        <li><b>Father's Name:</b>Subhash</li>
+        <li><b>Hobbies:</b> </li>
+        <ul>
+            <li>Photography</li>
+            <li>trekking</li>
+            <li>Travelling</li>
+            <li>Listening songs</li>
+        </ul>
+    
+</ul>
+
+</body>
+
+</html>
